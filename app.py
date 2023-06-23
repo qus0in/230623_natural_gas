@@ -53,4 +53,4 @@ col1.pyplot(plot.figure)
 
 col2.title("Plotly")
 fig = px.line(df, x='연월', y='생산량')
-st.plotly_chart(fig)
+col2.plotly_chart(fig)
